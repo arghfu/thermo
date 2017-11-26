@@ -347,15 +347,15 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
-UsedLibrary="C:/workspace/eagle_libs/misc.lbr"
-UsedLibrary="C:/workspace/eagle_libs/Thermo_Library.lbr"
+UsedLibrary="C:/workspace/eaglelib/thermo.lbr"
+UsedLibrary="C:/workspace/eaglelib/misc.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-11 -11 2548 1334"
-State=1
+Loc="-1295 310 -226 967"
+State=2
 Number=0
 
 [Desktop]
-Screen="2560 1440"
+Screen="3840 1203"
 Window="Win_1"
