@@ -10269,11 +10269,8 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Power" width="0.4" drill="0.4">
-<clearance class="1" value="0.1524"/>
-</class>
-<class number="2" name="data" width="0.1524" drill="0">
-<clearance class="2" value="0.1524"/>
+<class number="1" name="USB_DATA" width="0.1905" drill="0.25">
+<clearance class="1" value="0.1905"/>
 </class>
 </classes>
 <parts>
@@ -11106,8 +11103,8 @@ Buck Converter</text>
 <attribute name="OC_MOUSER" x="165.1" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="25.4" y="20.32"/>
-<instance part="GND6" gate="1" x="104.14" y="20.32"/>
-<instance part="AGND3" gate="VR1" x="119.38" y="20.32"/>
+<instance part="GND6" gate="1" x="101.6" y="15.24"/>
+<instance part="AGND3" gate="VR1" x="121.92" y="15.24"/>
 <instance part="R10" gate="G$1" x="111.76" y="33.02" smashed="yes">
 <attribute name="NAME" x="107.95" y="34.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.062" y="34.5186" size="1.778" layer="96"/>
@@ -11254,8 +11251,8 @@ Buck Converter</text>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="104.14" y1="22.86" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -11419,8 +11416,8 @@ Buck Converter</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
-<wire x1="116.84" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="33.02" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="33.02" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="33.02" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUCK_VCC" class="0">
@@ -11657,7 +11654,7 @@ Buck Converter</text>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
 </segment>
 </net>
-<net name="USB_D_N" class="0">
+<net name="USB_D_N" class="1">
 <segment>
 <wire x1="157.48" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="43.18" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
@@ -11668,7 +11665,7 @@ Buck Converter</text>
 <pinref part="IC3" gate="G$1" pin="D-"/>
 </segment>
 </net>
-<net name="USB_D_P" class="0">
+<net name="USB_D_P" class="1">
 <segment>
 <wire x1="157.48" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="50.8" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
@@ -11701,14 +11698,14 @@ Buck Converter</text>
 <pinref part="J2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="USB_D_FIL_N" class="0">
+<net name="USB_D_FIL_N" class="1">
 <segment>
 <wire x1="208.28" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
 <label x="210.82" y="53.34" size="0.889" layer="95" xref="yes"/>
 <pinref part="L3" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="USB_D_FIL_P" class="0">
+<net name="USB_D_FIL_P" class="1">
 <segment>
 <wire x1="208.28" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
 <label x="210.82" y="48.26" size="0.889" layer="95" xref="yes"/>
@@ -12875,14 +12872,14 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 <pinref part="IC8" gate="G$1" pin="RESET"/>
 </segment>
 </net>
-<net name="USB_D_FIL_N" class="0">
+<net name="USB_D_FIL_N" class="1">
 <segment>
 <wire x1="142.24" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="144.78" y="132.08" size="0.889" layer="95" xref="yes"/>
 <pinref part="IC8" gate="G$1" pin="PA24"/>
 </segment>
 </net>
-<net name="USB_D_FIL_P" class="0">
+<net name="USB_D_FIL_P" class="1">
 <segment>
 <wire x1="144.78" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 <label x="144.78" y="134.62" size="0.889" layer="95" xref="yes"/>
