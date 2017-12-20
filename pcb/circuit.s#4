@@ -13191,30 +13191,30 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </net>
 <net name="SENSOR_EN_0" class="0">
 <segment>
-<label x="73.66" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA10"/>
-<wire x1="73.66" y1="58.42" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<label x="71.12" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PA9"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_EN_1" class="0">
 <segment>
-<label x="68.58" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA8"/>
-<wire x1="68.58" y1="58.42" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<label x="48.26" y="78.74" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PC7"/>
+<wire x1="48.26" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_EN_2" class="0">
 <segment>
-<label x="48.26" y="81.28" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PC6"/>
-<wire x1="48.26" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<label x="48.26" y="83.82" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PC5"/>
+<wire x1="48.26" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_EN_3" class="0">
 <segment>
-<label x="48.26" y="83.82" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PC5"/>
-<wire x1="48.26" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="48.26" y="86.36" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PA7"/>
+<wire x1="48.26" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_EN_4" class="0">
@@ -13226,16 +13226,16 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </net>
 <net name="SENSOR_EN_5" class="0">
 <segment>
-<label x="71.12" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA9"/>
-<wire x1="71.12" y1="58.42" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<label x="73.66" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PA10"/>
+<wire x1="73.66" y1="58.42" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_EN_6" class="0">
 <segment>
-<label x="48.26" y="78.74" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PC7"/>
-<wire x1="48.26" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="68.58" y="58.42" size="0.889" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PA8"/>
+<wire x1="68.58" y1="58.42" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENSOR_INT_8" class="0">
@@ -13247,9 +13247,9 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </net>
 <net name="SENSOR_EN_7" class="0">
 <segment>
-<label x="48.26" y="86.36" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA7"/>
-<wire x1="48.26" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="48.26" y="81.28" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PC6"/>
+<wire x1="48.26" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!PG!_TRANS" class="0">
