@@ -10878,9 +10878,9 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="JP5" library="thermo" deviceset="JP3" device=""/>
 <part name="JP6" library="thermo" deviceset="JP4" device=""/>
 <part name="JP7" library="thermo" deviceset="JP4" device=""/>
-<part name="JP2" library="thermo" deviceset="JP4" device=""/>
 <part name="JP1" library="thermo" deviceset="JP4" device=""/>
 <part name="U$1" library="thermo" deviceset="JTAG-EDGE-CON" device=""/>
+<part name="JP8" library="thermo" deviceset="JP3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13526,8 +13526,8 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 <instance part="JP5" gate="1" x="63.5" y="40.64" rot="R270"/>
 <instance part="JP6" gate="G$1" x="63.5" y="30.48" rot="R270"/>
 <instance part="JP7" gate="G$1" x="63.5" y="15.24" rot="R270"/>
-<instance part="JP2" gate="G$1" x="27.94" y="40.64" rot="R270"/>
 <instance part="JP1" gate="G$1" x="27.94" y="53.34" rot="R270"/>
+<instance part="JP8" gate="1" x="27.94" y="40.64" rot="R270"/>
 </instances>
 <busses>
 <bus name="SENSOR_EN_[0..4]">
@@ -13981,7 +13981,7 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </segment>
 <segment>
 <label x="22.86" y="43.18" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP8" gate="1" pin="1"/>
 <wire x1="22.86" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13993,7 +13993,7 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </segment>
 <segment>
 <label x="22.86" y="40.64" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP8" gate="1" pin="2"/>
 <wire x1="22.86" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14005,7 +14005,7 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </segment>
 <segment>
 <label x="22.86" y="38.1" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="JP8" gate="1" pin="3"/>
 <wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14317,13 +14317,6 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 <label x="22.86" y="48.26" size="0.889" layer="95" rot="R180" xref="yes"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="22.86" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MISO_NC" class="0">
-<segment>
-<label x="22.86" y="35.56" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD_SCL" class="0">
