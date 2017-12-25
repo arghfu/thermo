@@ -3486,13 +3486,13 @@ design rules under a new name.</description>
 <via x="53.95" y="16.1" extent="1-16" drill="0.3048"/>
 <wire x1="53.85" y1="14.55" x2="53.85" y2="16" width="0.2" layer="16"/>
 <wire x1="53.85" y1="16" x2="53.95" y2="16.1" width="0.2" layer="16"/>
-<wire x1="10.39" y1="15.2" x2="10.39" y2="16.39" width="0.2" layer="16"/>
-<wire x1="10.39" y1="16.39" x2="11" y2="17" width="0.2" layer="16"/>
+<wire x1="10.39" y1="15.2" x2="10.39" y2="16.04" width="0.2" layer="16"/>
+<wire x1="10.39" y1="16.04" x2="11" y2="16.65" width="0.2" layer="16"/>
 <wire x1="8.19" y1="25.05" x2="8.19" y2="26.79" width="0.2" layer="16"/>
 <wire x1="1.99" y1="25.05" x2="8.19" y2="25.05" width="0.2" layer="16"/>
 <wire x1="1.99" y1="25.05" x2="0.89" y2="25.05" width="0.2" layer="16"/>
 <wire x1="1.99" y1="13.55" x2="10.39" y2="13.55" width="0.2" layer="16"/>
-<wire x1="11" y1="17" x2="11" y2="19" width="0.2" layer="16"/>
+<wire x1="11" y1="16.65" x2="11" y2="19" width="0.2" layer="16"/>
 <wire x1="11" y1="19" x2="10.45" y2="19.55" width="0.2" layer="16"/>
 <wire x1="10.45" y1="19.55" x2="8.75" y2="19.55" width="0.2" layer="16"/>
 <wire x1="8.75" y1="19.55" x2="8.19" y2="20.11" width="0.2" layer="16"/>
@@ -3742,7 +3742,8 @@ design rules under a new name.</description>
 <via x="35.25" y="36" extent="1-16" drill="0.3048"/>
 <wire x1="43.206425" y1="34.7048" x2="35.7952" y2="34.7048" width="0.2" layer="16"/>
 <wire x1="42.2798" y1="54.6202" x2="39.35" y2="54.6202" width="0.2" layer="16"/>
-<wire x1="43.0726" y1="44.0726" x2="43.0726" y2="53.8274" width="0.2" layer="16"/>
+<wire x1="43.0726" y1="44.0726" x2="43.0726" y2="50" width="0.2" layer="16"/>
+<wire x1="43.0726" y1="50" x2="43.0726" y2="53.8274" width="0.2" layer="16"/>
 <wire x1="43.0726" y1="53.8274" x2="42.2798" y2="54.6202" width="0.2" layer="16"/>
 <wire x1="13.35" y1="54.5798" x2="26.3096" y2="54.5798" width="0.2" layer="16"/>
 <wire x1="26.35" y1="54.6202" x2="39.35" y2="54.6202" width="0.2" layer="16"/>
@@ -3754,7 +3755,10 @@ design rules under a new name.</description>
 <wire x1="52.35" y1="54.6202" x2="61.0202" y2="54.6202" width="0.2" layer="16"/>
 <wire x1="61.9" y1="55.5" x2="65.35" y2="55.5" width="0.2" layer="16"/>
 <wire x1="61.0202" y1="54.6202" x2="61.9" y2="55.5" width="0.2" layer="16"/>
-<wire x1="43.0726" y1="53.8274" x2="52.35" y2="54.6202" width="0" layer="19" extent="16-16"/>
+<via x="43.0726" y="50" extent="1-16" drill="0.3048"/>
+<wire x1="43.0726" y1="50" x2="43.0726" y2="51.08235" width="0.2" layer="1"/>
+<wire x1="46.61045" y1="54.6202" x2="52.35" y2="54.6202" width="0.2" layer="1"/>
+<wire x1="43.0726" y1="51.08235" x2="46.61045" y2="54.6202" width="0.2" layer="1"/>
 </signal>
 <signal name="BUCK_VCC">
 <contactref element="R1" pad="1"/>
@@ -6350,9 +6354,11 @@ design rules under a new name.</description>
 <errors>
 <approved hash="6,16,011e825e3fa239e7"/>
 <approved hash="6,16,9881f54cb2762360"/>
-<approved hash="6,16,afb6d34ad00dacf1"/>
+<approved hash="6,16,6b956ba5266f265f"/>
 <approved hash="6,16,d94734caf072e1a1"/>
+<approved hash="6,16,afb6d34ad00dacf1"/>
 <approved hash="6,16,af96d36ad02dacd1"/>
+<approved hash="6,16,e22a37ecf004d988"/>
 </errors>
 </board>
 </drawing>

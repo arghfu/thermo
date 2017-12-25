@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="24" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,9 +28,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -46,13 +46,13 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -3477,7 +3477,7 @@ design rules under a new name.</description>
 <wire x1="50.55" y1="43.55" x2="50.55" y2="44.5" width="0.2" layer="16"/>
 <wire x1="59.34" y1="41.75" x2="59.34" y2="44.26" width="0.2" layer="16"/>
 <wire x1="59.34" y1="44.26" x2="58.5" y2="45.1" width="0.2" layer="16"/>
-<wire x1="59.34" y1="41.75" x2="61.88" y2="41.75" width="0" layer="19" extent="1-1"/>
+<wire x1="61.88" y1="41.75" x2="59.34" y2="41.75" width="0.2" layer="16"/>
 <wire x1="43.5" y1="31.6476" x2="44.25" y2="43" width="0" layer="19" extent="1-1"/>
 <wire x1="53.85" y1="14.55" x2="53.95" y2="14.75" width="0" layer="19" extent="1-16"/>
 <wire x1="32" y1="30.5" x2="32" y2="24" width="0" layer="19" extent="1-1"/>
@@ -4943,9 +4943,6 @@ design rules under a new name.</description>
 <wire x1="35.25" y1="62.3" x2="44.5" y2="62.3" width="0.2" layer="16"/>
 <wire x1="44.5" y1="62.3" x2="45.4" y2="61.4" width="0.2" layer="16"/>
 <wire x1="45.4" y1="61.4" x2="45.4" y2="60.35" width="0.2" layer="16"/>
-<wire x1="45.4" y1="60.35" x2="45.4" y2="59" width="0.2" layer="16"/>
-<wire x1="45.4" y1="59" x2="44.9" y2="58.5" width="0.2" layer="16"/>
-<wire x1="44.9" y1="58.5" x2="43.425" y2="58.5" width="0.2" layer="16"/>
 <wire x1="49.05" y1="60.35" x2="48" y2="60.35" width="0.2" layer="16"/>
 <wire x1="48" y1="60.35" x2="45.4" y2="60.35" width="0.2" layer="16"/>
 <wire x1="48" y1="60.35" x2="48" y2="61.8" width="0.2" layer="16"/>
@@ -4969,8 +4966,6 @@ design rules under a new name.</description>
 <via x="41.85" y="41" extent="1-16" drill="0.3048"/>
 <wire x1="41.85" y1="41" x2="41.25" y2="40.4" width="0.2" layer="1"/>
 <wire x1="41.25" y1="40.4" x2="40.5" y2="40.4" width="0.2" layer="1"/>
-<wire x1="41.85" y1="41" x2="43.425" y2="42.575" width="0.2" layer="16"/>
-<wire x1="43.425" y1="42.575" x2="43.425" y2="58.5" width="0.2" layer="16"/>
 <wire x1="40.5" y1="38" x2="40.5" y2="36.7524" width="0.2" layer="1"/>
 <wire x1="40.5" y1="36.7524" x2="40.1" y2="36.3524" width="0.2" layer="1"/>
 <wire x1="36.4476" y1="36.3524" x2="36.15" y2="36.65" width="0.2" layer="1"/>
@@ -4980,6 +4975,10 @@ design rules under a new name.</description>
 <wire x1="40.1" y1="36.3524" x2="36.4476" y2="36.3524" width="0.2" layer="1"/>
 <wire x1="34" y1="36.2" x2="34.7572" y2="35.4428" width="0.2" layer="1"/>
 <wire x1="34.7572" y1="35.4428" x2="36.15" y2="35.4428" width="0.2" layer="1"/>
+<wire x1="41.85" y1="41" x2="45.4" y2="44.55" width="0.2" layer="16"/>
+<wire x1="45.4" y1="44.55" x2="45.4" y2="58.5" width="0.2" layer="16"/>
+<wire x1="45.4" y1="58.5" x2="45.4" y2="60.35" width="0.2" layer="16"/>
+<wire x1="43.425" y1="58.5" x2="45.4" y2="58.5" width="0.2" layer="16"/>
 </signal>
 <signal name="WIFI_WAKE">
 <contactref element="IC8" pad="56"/>
