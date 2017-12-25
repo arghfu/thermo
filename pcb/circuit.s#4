@@ -12515,37 +12515,37 @@ Buck Converter</text>
 </net>
 <net name="!PG!_TRANS" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="I/OVL1"/>
-<wire x1="81.28" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<label x="78.74" y="33.02" size="0.889" layer="95" rot="R180" xref="yes"/>
+<label x="78.74" y="30.48" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVL2"/>
+<wire x1="78.74" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STAT2_TRANS" class="0">
 <segment>
-<label x="78.74" y="27.94" size="0.889" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC6" gate="G$1" pin="I/OVL3"/>
-<wire x1="78.74" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<label x="78.74" y="25.4" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVL4"/>
+<wire x1="78.74" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_CON_INT_TRANS" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="I/OVL4"/>
-<wire x1="81.28" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="0.889" layer="95" rot="R180" xref="yes"/>
+<label x="78.74" y="33.02" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVL1"/>
+<wire x1="78.74" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGER_STAT2" class="0">
 <segment>
-<label x="116.84" y="27.94" size="0.889" layer="95" xref="yes"/>
-<pinref part="IC6" gate="G$1" pin="I/OVCC3"/>
-<wire x1="116.84" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
+<label x="116.84" y="25.4" size="0.889" layer="95" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVCC4"/>
+<wire x1="116.84" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGER_!PG!" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="I/OVCC1"/>
-<wire x1="111.76" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<label x="116.84" y="33.02" size="0.889" layer="95" xref="yes"/>
+<label x="116.84" y="30.48" size="0.889" layer="95" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVCC2"/>
+<wire x1="116.84" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGER_VUSB_FIL" class="0">
@@ -12557,18 +12557,18 @@ Buck Converter</text>
 <label x="119.38" y="40.64" size="0.889" layer="95" rot="R90" xref="yes"/>
 <pinref part="IC6" gate="G$1" pin="!TS!"/>
 <wire x1="111.76" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="20.32" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
 <junction x="114.3" y="35.56"/>
-<pinref part="IC6" gate="G$1" pin="I/OVCC4"/>
-<wire x1="114.3" y1="25.4" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
-<label x="116.84" y="25.4" size="0.889" layer="95" xref="yes"/>
-<junction x="114.3" y="25.4"/>
-<wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="20.32" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="33.02" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+<label x="116.84" y="33.02" size="0.889" layer="95" xref="yes"/>
 <wire x1="139.7" y1="33.02" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
 <junction x="119.38" y="35.56"/>
 <pinref part="C33" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
+<junction x="114.3" y="33.02"/>
+<pinref part="IC6" gate="G$1" pin="I/OVCC1"/>
+<wire x1="111.76" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WIFI_RESETN" class="0">
@@ -12663,16 +12663,16 @@ Buck Converter</text>
 </net>
 <net name="STAT1_TRANS" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="I/OVL2"/>
-<wire x1="81.28" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="78.74" y="30.48" size="0.889" layer="95" rot="R180" xref="yes"/>
+<label x="78.74" y="27.94" size="0.889" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVL3"/>
+<wire x1="78.74" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGER_STAT1" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="I/OVCC2"/>
-<wire x1="111.76" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
-<label x="116.84" y="30.48" size="0.889" layer="95" xref="yes"/>
+<label x="116.84" y="27.94" size="0.889" layer="95" xref="yes"/>
+<pinref part="IC6" gate="G$1" pin="I/OVCC3"/>
+<wire x1="116.84" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -12918,16 +12918,16 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </net>
 <net name="BT_PAIRING_KEY" class="0">
 <segment>
-<label x="144.78" y="116.84" size="0.889" layer="95" xref="yes"/>
-<wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="PB20"/>
+<label x="144.78" y="114.3" size="0.889" layer="95" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PB19"/>
+<wire x1="144.78" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BT_RX_IND" class="0">
 <segment>
-<label x="144.78" y="114.3" size="0.889" layer="95" xref="yes"/>
-<wire x1="144.78" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="PB19"/>
+<label x="144.78" y="116.84" size="0.889" layer="95" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="PB20"/>
+<wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BT_LINK_DROP" class="0">

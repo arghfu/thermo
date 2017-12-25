@@ -12911,44 +12911,44 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </net>
 <net name="BT_TX_IND" class="0">
 <segment>
-<wire x1="142.24" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
 <label x="144.78" y="127" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="PA22"/>
 </segment>
 </net>
 <net name="BT_PAIRING_KEY" class="0">
 <segment>
-<wire x1="142.24" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
-<label x="144.78" y="124.46" size="0.889" layer="95" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA21"/>
+<label x="144.78" y="116.84" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="PB20"/>
 </segment>
 </net>
 <net name="BT_RX_IND" class="0">
 <segment>
-<wire x1="142.24" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
-<label x="144.78" y="121.92" size="0.889" layer="95" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PA20"/>
+<label x="144.78" y="114.3" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="PB19"/>
 </segment>
 </net>
 <net name="BT_LINK_DROP" class="0">
 <segment>
-<wire x1="142.24" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
 <label x="144.78" y="119.38" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="119.38" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="PB21"/>
 </segment>
 </net>
 <net name="BT_RSSI_IND" class="0">
 <segment>
-<wire x1="142.24" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
-<label x="144.78" y="116.84" size="0.889" layer="95" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PB20"/>
+<label x="144.78" y="121.92" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="PA20"/>
 </segment>
 </net>
 <net name="BT_MODE" class="0">
 <segment>
-<wire x1="142.24" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<label x="144.78" y="114.3" size="0.889" layer="95" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="PB19"/>
+<label x="144.78" y="124.46" size="0.889" layer="95" xref="yes"/>
+<wire x1="144.78" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="G$1" pin="PA21"/>
 </segment>
 </net>
 <net name="UI_BUTTON_INT_0" class="0">
