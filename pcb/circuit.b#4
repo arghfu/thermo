@@ -48,9 +48,9 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -3272,8 +3272,6 @@ design rules under a new name.</description>
 <wire x1="13.7" y1="14.5" x2="13.9" y2="14.3" width="0.254" layer="1"/>
 <wire x1="13.9" y1="14.3" x2="13.9" y2="13.7" width="0.254" layer="1"/>
 <wire x1="10.39" y1="13.55" x2="10.39" y2="15.2" width="0.2" layer="16"/>
-<wire x1="8.19" y1="20.81" x2="8.19" y2="25" width="0.2" layer="16"/>
-<wire x1="8.19" y1="25" x2="8.19" y2="25.05" width="0.2" layer="16"/>
 <wire x1="69.95" y1="29.6" x2="76.55" y2="29.6" width="0.4" layer="16"/>
 <wire x1="62.45" y1="18.75" x2="66.35" y2="18.75" width="0.4" layer="16"/>
 <wire x1="66.35" y1="20.26" x2="66.35" y2="18.75" width="0.4" layer="16"/>
@@ -3420,17 +3418,12 @@ design rules under a new name.</description>
 <wire x1="52.75" y1="14.75" x2="51.85" y2="13.85" width="0.2" layer="1"/>
 <wire x1="48.35" y1="13.85" x2="48.35" y2="15.1" width="0.2" layer="16"/>
 <wire x1="1.99" y1="13.55" x2="0.89" y2="13.55" width="0.2" layer="16"/>
-<wire x1="1.99" y1="13.55" x2="10.39" y2="13.55" width="0.2" layer="16"/>
-<wire x1="1.99" y1="25.05" x2="2.04" y2="25" width="0.2" layer="16"/>
-<wire x1="2.04" y1="25" x2="8.19" y2="25" width="0.2" layer="16"/>
-<wire x1="0.89" y1="25.05" x2="1.99" y2="25.05" width="0.2" layer="16"/>
 <wire x1="8.45" y1="32.15" x2="10.75" y2="32.15" width="0.2" layer="16"/>
 <wire x1="10.75" y1="32.15" x2="13.3" y2="32.15" width="0.2" layer="16"/>
 <wire x1="8.45" y1="32.15" x2="8.014" y2="32.586" width="0.2" layer="16"/>
 <wire x1="8.014" y1="32.586" x2="8.014" y2="34.44" width="0.2" layer="16"/>
 <wire x1="12.54" y1="27.55" x2="10.75" y2="27.55" width="0.2" layer="16"/>
 <wire x1="10.75" y1="27.55" x2="10.75" y2="32.15" width="0.2" layer="16"/>
-<wire x1="8.19" y1="25.05" x2="8.19" y2="26.79" width="0.2" layer="16"/>
 <wire x1="8.19" y1="26.79" x2="8.95" y2="27.55" width="0.2" layer="16"/>
 <wire x1="8.95" y1="27.55" x2="10.75" y2="27.55" width="0.2" layer="16"/>
 <wire x1="51" y1="20.6" x2="51.45" y2="21.05" width="0.2" layer="1"/>
@@ -3495,10 +3488,15 @@ design rules under a new name.</description>
 <wire x1="53.85" y1="16" x2="53.95" y2="16.1" width="0.2" layer="16"/>
 <wire x1="10.39" y1="15.2" x2="10.39" y2="16.39" width="0.2" layer="16"/>
 <wire x1="10.39" y1="16.39" x2="11" y2="17" width="0.2" layer="16"/>
-<wire x1="10.457725" y1="18.5635" x2="10.4365" y2="18.5635" width="0.2" layer="16"/>
-<wire x1="11" y1="17" x2="11" y2="18.021225" width="0.2" layer="16"/>
-<wire x1="11" y1="18.021225" x2="10.457725" y2="18.5635" width="0.2" layer="16"/>
-<wire x1="10.4365" y1="18.5635" x2="8.19" y2="20.81" width="0.2" layer="16"/>
+<wire x1="8.19" y1="25.05" x2="8.19" y2="26.79" width="0.2" layer="16"/>
+<wire x1="1.99" y1="25.05" x2="8.19" y2="25.05" width="0.2" layer="16"/>
+<wire x1="1.99" y1="25.05" x2="0.89" y2="25.05" width="0.2" layer="16"/>
+<wire x1="1.99" y1="13.55" x2="10.39" y2="13.55" width="0.2" layer="16"/>
+<wire x1="11" y1="17" x2="11" y2="19" width="0.2" layer="16"/>
+<wire x1="11" y1="19" x2="10.45" y2="19.55" width="0.2" layer="16"/>
+<wire x1="10.45" y1="19.55" x2="8.75" y2="19.55" width="0.2" layer="16"/>
+<wire x1="8.75" y1="19.55" x2="8.19" y2="20.11" width="0.2" layer="16"/>
+<wire x1="8.19" y1="20.11" x2="8.19" y2="25.05" width="0.2" layer="16"/>
 </signal>
 <signal name="CHARGER_PROG">
 <contactref element="R7" pad="2"/>
@@ -6350,12 +6348,11 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="6,16,6b956ba5266f265f"/>
-<approved hash="6,16,e22a37ecf004d988"/>
 <approved hash="6,16,011e825e3fa239e7"/>
-<approved hash="6,16,af96d36ad02dacd1"/>
-<approved hash="6,16,afb6d34ad00dacf1"/>
 <approved hash="6,16,9881f54cb2762360"/>
+<approved hash="6,16,afb6d34ad00dacf1"/>
+<approved hash="6,16,d94734caf072e1a1"/>
+<approved hash="6,16,af96d36ad02dacd1"/>
 </errors>
 </board>
 </drawing>
