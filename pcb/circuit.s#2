@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8302,6 +8302,24 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <vertex x="-2.2" y="2.11"/>
 <vertex x="-3.85" y="2.11"/>
 </polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-6.35" y="13.11"/>
+<vertex x="-6.35" y="9.11"/>
+<vertex x="5.65" y="9.11"/>
+<vertex x="5.65" y="13.11"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-6.35" y="13.11"/>
+<vertex x="5.65" y="13.11"/>
+<vertex x="5.65" y="9.11"/>
+<vertex x="-6.35" y="9.11"/>
+</polygon>
+<polygon width="0.127" layer="43">
+<vertex x="-6.35" y="13.11"/>
+<vertex x="5.65" y="13.11"/>
+<vertex x="5.65" y="9.11"/>
+<vertex x="-6.35" y="9.11"/>
+</polygon>
 <polygon width="0.127" layer="39">
 <vertex x="-6.35" y="9.11"/>
 <vertex x="-11.05" y="9.11"/>
@@ -8316,48 +8334,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 </polygon>
 <text x="-8.89" y="13.97" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.89" y="-11.43" size="1.27" layer="25">&gt;VALUE</text>
-<polygon width="0.127" layer="42">
-<vertex x="-6.35" y="13.11"/>
-<vertex x="5.65" y="13.11"/>
-<vertex x="5.65" y="12.85"/>
-<vertex x="4.45" y="12.85"/>
-<vertex x="4.45" y="10.65"/>
-<vertex x="5.65" y="10.65"/>
-<vertex x="5.65" y="9.1"/>
-<vertex x="-6.35" y="9.1"/>
-<vertex x="-6.35" y="10.65"/>
-<vertex x="-5.15" y="10.65"/>
-<vertex x="-5.15" y="12.85"/>
-<vertex x="-6.35" y="12.85"/>
-</polygon>
-<polygon width="0.127" layer="43">
-<vertex x="-6.35" y="13.11"/>
-<vertex x="5.65" y="13.11"/>
-<vertex x="5.65" y="12.85"/>
-<vertex x="4.45" y="12.85"/>
-<vertex x="4.45" y="10.65"/>
-<vertex x="5.65" y="10.65"/>
-<vertex x="5.65" y="9.1"/>
-<vertex x="-6.35" y="9.1"/>
-<vertex x="-6.35" y="10.65"/>
-<vertex x="-5.15" y="10.65"/>
-<vertex x="-5.15" y="12.85"/>
-<vertex x="-6.35" y="12.85"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-6.35" y="13.11"/>
-<vertex x="5.65" y="13.11"/>
-<vertex x="5.65" y="12.85"/>
-<vertex x="4.45" y="12.85"/>
-<vertex x="4.45" y="10.65"/>
-<vertex x="5.65" y="10.65"/>
-<vertex x="5.65" y="9.11"/>
-<vertex x="-6.35" y="9.11"/>
-<vertex x="-6.35" y="10.65"/>
-<vertex x="-5.15" y="10.65"/>
-<vertex x="-5.15" y="12.85"/>
-<vertex x="-6.35" y="12.85"/>
-</polygon>
 </package>
 <package name="USB-2-MICRO">
 <smd name="1" x="-1.3" y="4.3" dx="0.4" dy="1.4" layer="1"/>
