@@ -1281,21 +1281,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.773" y1="-0.2" x2="1.223" y2="0.2" layer="51"/>
 <rectangle x1="-0.623" y1="-0.575" x2="-0.248" y2="0.575" layer="51"/>
 </package>
-<package name="WE-LHMI">
-<smd name="1" x="-1.85" y="0" dx="1.5" dy="2.3" layer="1"/>
-<smd name="2" x="1.85" y="0" dx="1.5" dy="2.3" layer="1"/>
-<wire x1="1.5" y1="-2.1" x2="-1.5" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2.1" x2="-2.1" y2="-1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-2.1" y1="-1.5" x2="-2.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="1.5" x2="-1.5" y2="2.1" width="0.127" layer="21" curve="-90"/>
-<wire x1="-1.5" y1="2.1" x2="1.5" y2="2.1" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.1" x2="2.1" y2="1.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.1" y1="1.5" x2="2.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="2.1" y1="-1.5" x2="1.5" y2="-2.1" width="0.127" layer="21" curve="-90"/>
-<rectangle x1="-2.3" y1="-1" x2="-2.105" y2="1" layer="21"/>
-<rectangle x1="2.1" y1="-1" x2="2.295" y2="1" layer="21"/>
-<text x="-2.54" y="2.54" size="1.27" layer="21">&gt;NAME</text>
-</package>
 <package name="L0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -1341,9 +1326,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="thermo">
+<library name="thermo" urn="urn:adsk.eagle:library:1355801">
 <packages>
-<package name="MSOP10">
+<package name="MSOP10" urn="urn:adsk.eagle:footprint:1355917/1" library_version="4">
 <description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt; 
 Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf&lt;br&gt; 
 COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
@@ -1376,7 +1361,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <rectangle x1="-0.6256" y1="1.5" x2="-0.3756" y2="2.5" layer="51" rot="R180"/>
 <rectangle x1="-1.1256" y1="1.5" x2="-0.8756" y2="2.5" layer="51" rot="R180"/>
 </package>
-<package name="SOT23-5L">
+<package name="SOT23-5L" urn="urn:adsk.eagle:footprint:1355957/1" library_version="4">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt; 
 package type OT</description>
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
@@ -1403,7 +1388,7 @@ package type OT</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="TSSOP14">
+<package name="TSSOP14" urn="urn:adsk.eagle:footprint:1355976/1" library_version="4">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 14&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
 <wire x1="-2.5146" y1="-2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
@@ -1446,7 +1431,7 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-1.4016" y1="2.2828" x2="-1.1984" y2="3.121" layer="51"/>
 <rectangle x1="-2.0516" y1="2.2828" x2="-1.8484" y2="3.121" layer="51"/>
 </package>
-<package name="WE-CNSW">
+<package name="WE-CNSW" urn="urn:adsk.eagle:footprint:1355953/1" library_version="4">
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <smd name="1" x="-1.35" y="-0.5" dx="1.1" dy="0.6" layer="1"/>
 <smd name="2" x="1.35" y="-0.5" dx="1.1" dy="0.6" layer="1"/>
@@ -1457,7 +1442,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
 </package>
-<package name="SOT23">
+<package name="SOT23" urn="urn:adsk.eagle:footprint:1355907/1" library_version="4">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -1476,7 +1461,7 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="1MM_FPC_ZIF">
+<package name="1MM_FPC_ZIF" urn="urn:adsk.eagle:footprint:1355980/1" library_version="4">
 <smd name="1" x="-2.5" y="1.775" dx="0.6" dy="1.9" layer="1"/>
 <smd name="2" x="-1.5" y="1.775" dx="0.6" dy="1.9" layer="1"/>
 <smd name="3" x="-0.5" y="1.775" dx="0.6" dy="1.9" layer="1"/>
@@ -1497,7 +1482,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="6.3" y1="2" x2="-6.3" y2="2" width="0.127" layer="21"/>
 <text x="-6.35" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="I-GRID-20">
+<package name="I-GRID-20" urn="urn:adsk.eagle:footprint:1355968/1" library_version="4">
 <hole x="-10.2" y="-3.1" drill="1.3"/>
 <pad name="1" x="-9" y="2" drill="0.8"/>
 <pad name="3" x="-7" y="2" drill="0.8"/>
@@ -1528,7 +1513,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="10.153590625" y1="-4.1" x2="-10.31715" y2="-4.1" width="0.127" layer="21"/>
 <wire x1="-10.31715" y1="-4.1" x2="-11" y2="-3.41715" width="0.127" layer="21" curve="-90"/>
 </package>
-<package name="2.5MM-AUDIO-JACK-MONO-2">
+<package name="2.5MM-AUDIO-JACK-MONO-2" urn="urn:adsk.eagle:footprint:1355913/1" library_version="4">
 <smd name="1" x="1.7" y="-3.325" dx="2.4" dy="2.85" layer="1"/>
 <smd name="3" x="11.4" y="3.425" dx="2.4" dy="2.65" layer="1"/>
 <smd name="2" x="11.4" y="-3.425" dx="2.4" dy="2.65" layer="1"/>
@@ -1547,7 +1532,7 @@ MAX3223-MAX3243.pdf</description>
 <text x="0" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.3" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="ECX-1210">
+<package name="ECX-1210" urn="urn:adsk.eagle:footprint:1355992/1" library_version="4">
 <smd name="1" x="-0.4125" y="0" dx="1.14" dy="0.575" layer="1" rot="R90"/>
 <smd name="2" x="0.4125" y="0" dx="1.14" dy="0.575" layer="1" rot="R90"/>
 <text x="-1.27" y="1.27" size="1.27" layer="21">&gt;NAME</text>
@@ -1556,7 +1541,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="0.35" y1="-0.45" x2="-0.35" y2="-0.45" width="0.127" layer="21"/>
 <wire x1="-0.35" y1="-0.45" x2="-0.35" y2="0.45" width="0.127" layer="21"/>
 </package>
-<package name="TQFP100">
+<package name="TQFP100" urn="urn:adsk.eagle:footprint:1355939/1" library_version="4">
 <description>&lt;b&gt;100-lead Thin Quad Flat Pack Package&lt;/b&gt;</description>
 <wire x1="-7" y1="6.25" x2="-6.25" y2="7" width="0.254" layer="21"/>
 <wire x1="-6.25" y1="7" x2="6.75" y2="7" width="0.254" layer="21"/>
@@ -1840,7 +1825,7 @@ MAX3223-MAX3243.pdf</description>
 <vertex x="2.6901" y="-0.8699"/>
 </polygon>
 </package>
-<package name="MSOP8">
+<package name="MSOP8" urn="urn:adsk.eagle:footprint:1355899/1" library_version="4">
 <description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt; Grid 0.65mm&lt;p&gt; 
 Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
@@ -1875,7 +1860,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.575" y1="1.525" x2="-0.075" y2="2.6" layer="29" rot="R180"/>
 <rectangle x1="-1.225" y1="1.525" x2="-0.725" y2="2.6" layer="29" rot="R180"/>
 </package>
-<package name="ATWINC15X0-MODULE">
+<package name="ATWINC15X0-MODULE" urn="urn:adsk.eagle:footprint:1355891/1" library_version="4">
 <smd name="1" x="7.11" y="-7.49" dx="0.8" dy="1.9" layer="1" rot="R270"/>
 <smd name="2" x="7.11" y="-6.474" dx="0.8" dy="1.9" layer="1" rot="R270"/>
 <smd name="3" x="7.11" y="-5.458" dx="0.8" dy="1.9" layer="1" rot="R270"/>
@@ -1915,7 +1900,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-11.255" y1="6.56" x2="10.745" y2="11.56" layer="41"/>
 <rectangle x1="-11.255" y1="6.56" x2="10.745" y2="11.56" layer="42"/>
 </package>
-<package name="RN4870-MODULE">
+<package name="RN4870-MODULE" urn="urn:adsk.eagle:footprint:1355888/1" library_version="4">
 <description>Place GND Planes on the restrictet Planes at the ceramic Antenna</description>
 <smd name="14" x="-6.1" y="-7.09" dx="1.5" dy="0.7" layer="1"/>
 <smd name="13" x="-6.1" y="-5.99" dx="1.5" dy="0.7" layer="1"/>
@@ -1929,9 +1914,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <smd name="5" x="-6.1" y="2.81" dx="1.5" dy="0.7" layer="1"/>
 <smd name="4" x="-6.1" y="3.91" dx="1.5" dy="0.7" layer="1"/>
 <smd name="3" x="-6.1" y="5.01" dx="1.5" dy="0.7" layer="1"/>
-<wire x1="-6.35" y1="-8.89" x2="5.65" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="5.65" y1="-8.89" x2="5.65" y2="9.11" width="0.127" layer="21"/>
-<wire x1="5.65" y1="9.11" x2="5.65" y2="13.11" width="0.127" layer="21"/>
 <smd name="15" x="-3.65" y="-8.64" dx="1.5" dy="0.7" layer="1" rot="R90"/>
 <smd name="16" x="-2.55" y="-8.64" dx="1.5" dy="0.7" layer="1" rot="R90"/>
 <smd name="17" x="-1.45" y="-8.64" dx="1.5" dy="0.7" layer="1" rot="R90"/>
@@ -1949,13 +1931,16 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <smd name="29" x="5.4" y="0.61" dx="1.5" dy="0.7" layer="1"/>
 <smd name="30" x="5.4" y="1.71" dx="1.5" dy="0.7" layer="1"/>
 <smd name="31" x="5.4" y="2.81" dx="1.5" dy="0.7" layer="1"/>
-<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="9.11" width="0.127" layer="21"/>
 <smd name="32" x="5.4" y="11.21" dx="1.5" dy="0.7" layer="1"/>
 <smd name="33" x="5.4" y="12.31" dx="1.5" dy="0.7" layer="1"/>
-<wire x1="-6.35" y1="9.11" x2="-6.35" y2="13.11" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="9.11" x2="5.65" y2="9.11" width="0.127" layer="21"/>
 <smd name="2" x="-6.1" y="11.21" dx="1.5" dy="0.7" layer="1"/>
 <smd name="1" x="-6.1" y="12.31" dx="1.5" dy="0.7" layer="1"/>
+<wire x1="-6.35" y1="-8.89" x2="5.65" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="5.65" y1="-8.89" x2="5.65" y2="9.11" width="0.127" layer="21"/>
+<wire x1="5.65" y1="9.11" x2="5.65" y2="13.11" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="9.11" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="9.11" x2="-6.35" y2="13.11" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="9.11" x2="5.65" y2="9.11" width="0.127" layer="21"/>
 <wire x1="-3.95" y1="13.081" x2="-4.75" y2="13.081" width="0.127" layer="21" curve="-180"/>
 <wire x1="-6.35" y1="13.11" x2="-4.75" y2="13.11" width="0.127" layer="21"/>
 <wire x1="-3.95" y1="13.11" x2="5.65" y2="13.11" width="0.127" layer="21"/>
@@ -1995,8 +1980,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <vertex x="11.8" y="13.11"/>
 <vertex x="5.65" y="13.11"/>
 </polygon>
-<text x="-8.89" y="13.97" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.89" y="-11.43" size="1.27" layer="25">&gt;VALUE</text>
 <polygon width="0.127" layer="42">
 <vertex x="-6.35" y="13.11"/>
 <vertex x="5.65" y="13.11"/>
@@ -2039,8 +2022,10 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <vertex x="-5.15" y="12.85"/>
 <vertex x="-6.35" y="12.85"/>
 </polygon>
+<text x="-8.89" y="13.97" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-11.43" size="1.27" layer="25">&gt;VALUE</text>
 </package>
-<package name="USB-2-MICRO">
+<package name="USB-2-MICRO" urn="urn:adsk.eagle:footprint:1355895/1" library_version="4">
 <smd name="1" x="-1.3" y="4.3" dx="0.4" dy="1.4" layer="1"/>
 <smd name="2" x="-0.65" y="4.3" dx="0.4" dy="1.4" layer="1"/>
 <smd name="3" x="0" y="4.3" dx="0.4" dy="1.4" layer="1"/>
@@ -2062,7 +2047,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <text x="-4.826" y="5.207" size="1.27" layer="21">&gt;NAME</text>
 <text x="-4.826" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="2.5MM-AUDIO-JACK-MONO">
+<package name="2.5MM-AUDIO-JACK-MONO" urn="urn:adsk.eagle:footprint:1355911/1" library_version="4">
 <smd name="1" x="1.7" y="-3.325" dx="2.4" dy="2.85" layer="1"/>
 <smd name="3" x="11.4" y="3.425" dx="2.4" dy="2.65" layer="1"/>
 <smd name="2" x="11.4" y="-3.425" dx="2.4" dy="2.65" layer="1"/>
@@ -2083,7 +2068,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <text x="0" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.3" y="-4.3" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="JP2">
+<package name="JP2" urn="urn:adsk.eagle:footprint:1355996/1" library_version="4">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
@@ -2105,7 +2090,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
-<package name="JP3">
+<package name="JP3" urn="urn:adsk.eagle:footprint:1356000/1" library_version="4">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
@@ -2135,7 +2120,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
 <rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
 </package>
-<package name="JP4">
+<package name="JP4" urn="urn:adsk.eagle:footprint:1356004/1" library_version="4">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-5.08" y1="-1.016" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="1.27" x2="0.254" y2="1.27" width="0.1524" layer="21"/>
@@ -2173,12 +2158,17 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="0.9652" y1="-0.3048" x2="1.5748" y2="0.3048" layer="51"/>
 <rectangle x1="3.5052" y1="-0.3048" x2="4.1148" y2="0.3048" layer="51"/>
 </package>
-<package name="DEBUG-CON">
+<package name="DEBUG-CON" urn="urn:adsk.eagle:footprint:1356008/1" library_version="4">
 <smd name="1" x="-2" y="-3.5" dx="4.2" dy="0.7" layer="1" rot="R90"/>
 <smd name="2" x="-1" y="-3.5" dx="4.2" dy="0.7" layer="1" rot="R90"/>
 <smd name="3" x="0" y="-3.5" dx="4.2" dy="0.7" layer="1" rot="R90"/>
 <smd name="4" x="1" y="-3.5" dx="4.2" dy="0.7" layer="1" rot="R90"/>
 <smd name="5" x="2" y="-3.5" dx="4.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="-2" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
+<smd name="7" x="-1" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
+<smd name="8" x="0" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
+<smd name="9" x="1" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
+<smd name="10" x="2" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
 <wire x1="-2.5" y1="0" x2="-4.5" y2="0" width="0.1524" layer="46"/>
 <wire x1="-4.5" y1="0" x2="-4.5" y2="-7.45" width="0.1524" layer="46"/>
 <wire x1="-4.5" y1="-7.45" x2="-3.55" y2="-8.4" width="0.1524" layer="46" curve="90"/>
@@ -2199,12 +2189,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <vertex x="3" y="-8"/>
 <vertex x="-5" y="-8"/>
 </polygon>
-<smd name="6" x="-2" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
-<smd name="7" x="-1" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
-<smd name="8" x="0" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
-<smd name="9" x="1" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
-<smd name="10" x="2" y="-3.5" dx="4.2" dy="0.7" layer="16" rot="R90"/>
-<text x="-2.032" y="-7.493" size="1.27" layer="21">&gt;NAME</text>
 <polygon width="0.127" layer="41">
 <vertex x="-2.5" y="0"/>
 <vertex x="-2.5" y="-8.65"/>
@@ -2223,8 +2207,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <vertex x="-2.5" y="-8.65"/>
 <vertex x="-5" y="-8.65"/>
 </polygon>
+<text x="-2.032" y="-7.493" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="SOT-323">
+<package name="SOT-323" urn="urn:adsk.eagle:footprint:1355927/1" library_version="4">
 <smd name="1" x="-0.65" y="0" dx="0.6" dy="0.8" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.6" dy="0.8" layer="1"/>
 <smd name="3" x="0" y="1.6" dx="0.6" dy="0.8" layer="1"/>
@@ -2237,7 +2222,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.8" y1="-0.35" x2="-0.5" y2="0.15" layer="51"/>
 <text x="-1.2" y="2.15" size="0.8128" layer="25">&gt;NAME</text>
 </package>
-<package name="R0603">
+<package name="R0603" urn="urn:adsk.eagle:footprint:1355972/1" library_version="4">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
@@ -2253,7 +2238,103 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="L0603" urn="urn:adsk.eagle:footprint:1355959/1" library_version="4">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="WE-LHMI" urn="urn:adsk.eagle:footprint:1355935/1" library_version="4">
+<smd name="1" x="-1.85" y="0" dx="1.5" dy="2.3" layer="1"/>
+<smd name="2" x="1.85" y="0" dx="1.5" dy="2.3" layer="1"/>
+<wire x1="1.5" y1="-2.1" x2="-1.5" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.1" x2="-2.1" y2="-1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.1" y1="-1.5" x2="-2.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-1.5" y2="2.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.5" y1="2.1" x2="1.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.1" x2="2.1" y2="1.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.1" y1="1.5" x2="2.1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.5" x2="1.5" y2="-2.1" width="0.127" layer="21" curve="-90"/>
+<rectangle x1="-2.3" y1="-1" x2="-2.105" y2="1" layer="21"/>
+<rectangle x1="2.1" y1="-1" x2="2.295" y2="1" layer="21"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="I-GRID-20" urn="urn:adsk.eagle:package:1356061/2" type="model" library_version="4">
+</package3d>
+<package3d name="TSSOP14" urn="urn:adsk.eagle:package:1356065/2" type="model" library_version="4">
+<description>Thin Shrink Small Outline Plastic 14
+MAX3223-MAX3243.pdf</description>
+</package3d>
+<package3d name="1MM_FPC_ZIF" urn="urn:adsk.eagle:package:1356067/2" type="model" library_version="4">
+</package3d>
+<package3d name="WE-CNSW" urn="urn:adsk.eagle:package:1356049/2" type="model" library_version="4">
+</package3d>
+<package3d name="SOT23-5L" urn="urn:adsk.eagle:package:1356053/2" type="model" library_version="4">
+<description>Small Outline Transistor 
+package type OT</description>
+</package3d>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:1356023/3" type="model" library_version="4">
+<description>SOT-23</description>
+</package3d>
+<package3d name="2.5MM-AUDIO-JACK-MONO-2" urn="urn:adsk.eagle:package:1356031/2" type="model" library_version="4">
+</package3d>
+<package3d name="ECX-1210" urn="urn:adsk.eagle:package:1356071/2" type="model" library_version="4">
+</package3d>
+<package3d name="TQFP100" urn="urn:adsk.eagle:package:1356043/2" type="model" library_version="4">
+<description>100-lead Thin Quad Flat Pack Package</description>
+</package3d>
+<package3d name="MSOP10" urn="urn:adsk.eagle:package:1356027/2" type="model" library_version="4">
+<description>10-Lead Mini Small Outline Package [MSOP] (RM-10) 
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf 
+COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
+</package3d>
+<package3d name="MSOP8" urn="urn:adsk.eagle:package:1356019/2" type="model" library_version="4">
+<description>Micro Small Outline Package Grid 0.65mm 
+Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
+</package3d>
+<package3d name="ATWINC15X0-MODULE" urn="urn:adsk.eagle:package:1356013/1" type="box" library_version="4">
+</package3d>
+<package3d name="RN4870-MODULE" urn="urn:adsk.eagle:package:1356015/1" type="box" library_version="4">
+<description>Place GND Planes on the restrictet Planes at the ceramic Antenna</description>
+</package3d>
+<package3d name="USB-2-MICRO" urn="urn:adsk.eagle:package:1356017/2" type="model" library_version="4">
+</package3d>
+<package3d name="2.5MM-AUDIO-JACK-MONO" urn="urn:adsk.eagle:package:1356025/2" type="model" library_version="4">
+</package3d>
+<package3d name="JP2" urn="urn:adsk.eagle:package:1356073/2" type="model" library_version="4">
+<description>JUMPER</description>
+</package3d>
+<package3d name="JP4" urn="urn:adsk.eagle:package:1356077/2" type="model" library_version="4">
+<description>JUMPER</description>
+</package3d>
+<package3d name="DEBUG-CON" urn="urn:adsk.eagle:package:1356090/2" type="box" library_version="4">
+</package3d>
+<package3d name="JP3" urn="urn:adsk.eagle:package:1356075/2" type="model" library_version="4">
+<description>JUMPER</description>
+</package3d>
+<package3d name="SOT-323" urn="urn:adsk.eagle:package:1356033/2" type="model" library_version="4">
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:1356063/2" type="model" library_version="4">
+<description>RESISTOR</description>
+</package3d>
+<package3d name="L0603" urn="urn:adsk.eagle:package:1356055/2" type="model" library_version="4">
+<description>RESISTOR</description>
+</package3d>
+<package3d name="WE-LHMI" urn="urn:adsk.eagle:package:1356037/2" type="model" library_version="4">
+</package3d>
+</packages3d>
 </library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
@@ -2786,17 +2867,17 @@ design rules under a new name.</description>
 <attribute name="OC_MOUSER" value="726-BAT60AE6327HTSA1" x="49.05" y="9.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="50.855" y="10.6" size="1.016" layer="28" rot="MR270"/>
 </element>
-<element name="IC3" library="thermo" package="SOT23-5L" value="WE-TVS" x="41.35" y="7.55" smashed="yes" rot="R270">
+<element name="IC3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:1356053/2" value="WE-TVS" x="41.35" y="7.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.595" y="7.155" size="0.8128" layer="25" ratio="12"/>
 <attribute name="OC_MOUSER" value="710-824011" x="41.35" y="7.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.921" y="9.455" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC6" library="thermo" package="TSSOP14" value="MAX3378EEUD" x="57.6" y="13.9" smashed="yes" rot="R180">
+<element name="IC6" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="TSSOP14" package3d_urn="urn:adsk.eagle:package:1356065/2" value="MAX3378EEUD" x="57.6" y="13.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.1172" y="10.4456" size="0.8128" layer="25" ratio="10"/>
 <attribute name="OC_MOUSER" value="700-MAX3378EEUD" x="57.6" y="13.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="53.7138" y="15.9828" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="L1" library="Thermo_Library" package="WE-LHMI" value="3,3µ" x="40.65" y="15.3" smashed="yes" rot="MR270">
+<element name="L1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="WE-LHMI" package3d_urn="urn:adsk.eagle:package:1356037/2" value="3,3µ" x="40.65" y="15.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="40.95" y="18.25" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="OC_MOUSER" value="710-74437321033" x="40.65" y="15.3" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -2805,7 +2886,7 @@ design rules under a new name.</description>
 <attribute name="OC_MOUSER" value="710-742792641" x="37.65" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.015" y="3.795" size="1.27" layer="27"/>
 </element>
-<element name="L3" library="thermo" package="WE-CNSW" value="WE-CNSW" x="41.35" y="11.85" smashed="yes" rot="R90">
+<element name="L3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="WE-CNSW" package3d_urn="urn:adsk.eagle:package:1356049/2" value="WE-CNSW" x="41.35" y="11.85" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.86" y="14.07" size="0.8128" layer="25" ratio="12"/>
 <attribute name="OC_MOUSER" value="710-744232090" x="41.35" y="11.85" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2813,7 +2894,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.41" y="34.081" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="871-B82422H1103K" x="53.9" y="32.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L4" library="Thermo_Library" package="L0603" value="" x="38.3" y="14.95" smashed="yes" rot="R90">
+<element name="L4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="L0603" package3d_urn="urn:adsk.eagle:package:1356055/2" value="" x="38.3" y="14.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3" y="13.6" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="81-BLM18EG221SN1D" x="38.3" y="14.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.205" y="14.315" size="1.27" layer="27" rot="R90"/>
@@ -3098,7 +3179,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="58" y="6.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.905" y="5.515" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="T1" library="thermo" package="SOT23" value="PMOS" x="52" y="9.7" smashed="yes" rot="MR90">
+<element name="T1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT23" package3d_urn="urn:adsk.eagle:package:1356023/3" value="PMOS" x="52" y="9.7" smashed="yes" rot="MR90">
 <attribute name="NAME" x="54.205" y="7.955" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="OC_MOUSER" value="781-SI2301CDS-T1-GE3" x="52" y="9.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="48.825" y="7.795" size="1.27" layer="28" rot="MR90"/>
@@ -3108,56 +3189,56 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="" x="69.5" y="4.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_MOUSER" value="653-B3S-1000" x="69.5" y="4.35" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="X14" library="thermo" package="1MM_FPC_ZIF" value="MOLEX_1MM_FPC" x="32.15" y="16.65" smashed="yes" rot="MR90">
+<element name="X14" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="1MM_FPC_ZIF" package3d_urn="urn:adsk.eagle:package:1356067/2" value="MOLEX_1MM_FPC" x="32.15" y="16.65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.86" y="21.5" size="0.8128" layer="26" rot="MR90"/>
 </element>
-<element name="X15" library="thermo" package="I-GRID-20" value="IGRID-20" x="21.86" y="4.58" smashed="yes" rot="MR0">
+<element name="X15" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="I-GRID-20" package3d_urn="urn:adsk.eagle:package:1356061/2" value="IGRID-20" x="21.86" y="4.58" smashed="yes" rot="MR0">
 <attribute name="OC_MOUSER" value="538-501645-2020" x="21.86" y="4.58" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="X9" library="thermo" package="2.5MM-AUDIO-JACK-MONO-2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="14" y="69.9" smashed="yes" rot="R270">
+<element name="X9" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO-2" package3d_urn="urn:adsk.eagle:package:1356031/2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="14" y="69.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="17" y="68.9" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="9.7" y="66.6" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X10" library="thermo" package="2.5MM-AUDIO-JACK-MONO-2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="27" y="69.9" smashed="yes" rot="R270">
+<element name="X10" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO-2" package3d_urn="urn:adsk.eagle:package:1356031/2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="27" y="69.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="30" y="68.9" size="0.8128" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="22.7" y="66.6" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X11" library="thermo" package="2.5MM-AUDIO-JACK-MONO-2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="40" y="69.9" smashed="yes" rot="R270">
+<element name="X11" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO-2" package3d_urn="urn:adsk.eagle:package:1356031/2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="40" y="69.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="43" y="68.9" size="0.8128" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="35.7" y="66.6" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X12" library="thermo" package="2.5MM-AUDIO-JACK-MONO-2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="53" y="69.9" smashed="yes" rot="R270">
+<element name="X12" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO-2" package3d_urn="urn:adsk.eagle:package:1356031/2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="53" y="69.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="56" y="68.9" size="0.8128" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="48.7" y="66.6" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="X13" library="thermo" package="2.5MM-AUDIO-JACK-MONO-2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="66" y="69.9" smashed="yes" rot="R270">
+<element name="X13" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO-2" package3d_urn="urn:adsk.eagle:package:1356031/2" value="2.5MM-AUDIO-JACK-MONONO_DRILL" x="66" y="69.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="69" y="68.9" size="0.8128" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="61.7" y="66.6" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="Q1" library="thermo" package="ECX-1210" value="ECX-1210" x="45.75" y="39.9" smashed="yes" rot="R180">
+<element name="Q1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="ECX-1210" package3d_urn="urn:adsk.eagle:package:1356071/2" value="ECX-1210" x="45.75" y="39.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.82" y="40.32" size="0.8128" layer="21" rot="R270"/>
 </element>
-<element name="IC8" library="thermo" package="TQFP100" value="ATSAML22N18A" x="40" y="30" smashed="yes" rot="R270">
+<element name="IC8" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="TQFP100" package3d_urn="urn:adsk.eagle:package:1356043/2" value="ATSAML22N18A" x="40" y="30" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.25" y="36.9" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="43" y="36" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC2" library="thermo" package="MSOP10" value="MCP73833-AMI/UN-ND" x="50" y="5.3" smashed="yes" rot="R270">
+<element name="IC2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="MSOP10" package3d_urn="urn:adsk.eagle:package:1356027/2" value="MCP73833-AMI/UN-ND" x="50" y="5.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.81" y="2.932" size="0.8128" layer="25" ratio="12"/>
 <attribute name="VALUE" x="47.46" y="1.998" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC1" library="thermo" package="MSOP8" value="MCP1612-ADJI/MS" x="42.7" y="10.9" smashed="yes" rot="MR270">
+<element name="IC1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="MSOP8" package3d_urn="urn:adsk.eagle:package:1356019/2" value="MCP1612-ADJI/MS" x="42.7" y="10.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.105" y="12.555" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="44.605" y="8.36" size="1.016" layer="28" rot="MR0"/>
 </element>
-<element name="IC4" library="thermo" package="MSOP10" value="MCP3423" x="59.45" y="14.6" smashed="yes" rot="MR0">
+<element name="IC4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="MSOP10" package3d_urn="urn:adsk.eagle:package:1356027/2" value="MCP3423" x="59.45" y="14.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.232" y="16.41" size="0.8128" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="56.148" y="12.06" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="IC5" library="thermo" package="ATWINC15X0-MODULE" value="ATWINC1510-MR210PB1952-ND" x="11.7" y="41.55" smashed="yes" rot="MR270">
+<element name="IC5" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="ATWINC15X0-MODULE" package3d_urn="urn:adsk.eagle:package:1356013/1" value="ATWINC1510-MR210PB1952-ND" x="11.7" y="41.55" smashed="yes" rot="MR270">
 <attribute name="NAME" x="7.616" y="49.765" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="25.67" y="49.17" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="IC7" library="thermo" package="RN4870-MODULE" value="RN4870" x="13.2" y="18.95" smashed="yes" rot="MR270">
+<element name="IC7" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="RN4870-MODULE" package3d_urn="urn:adsk.eagle:package:1356015/1" value="RN4870" x="13.2" y="18.95" smashed="yes" rot="MR270">
 <attribute name="NAME" x="7.14" y="25.82" size="0.8128" layer="26" rot="MR0"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF" x="47.95" y="7.9" smashed="yes">
@@ -3234,75 +3315,75 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="66.35" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="68.7899" y="31.4721" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="X1" library="thermo" package="USB-2-MICRO" value="USB2-MICRO" x="41.65" y="0.05" smashed="yes">
+<element name="X1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="USB-2-MICRO" package3d_urn="urn:adsk.eagle:package:1356017/2" value="USB2-MICRO" x="41.65" y="0.05" smashed="yes">
 <attribute name="NAME" x="46.974" y="0.557" size="0.8128" layer="21"/>
 <attribute name="VALUE" x="36.824" y="-2.49" size="0.8128" layer="21"/>
 </element>
-<element name="X4" library="thermo" package="2.5MM-AUDIO-JACK-MONO" value="2.5MM-AUDIO-JACK-MONODRILL" x="14" y="69.9" smashed="yes" rot="MR270">
+<element name="X4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO" package3d_urn="urn:adsk.eagle:package:1356025/2" value="2.5MM-AUDIO-JACK-MONODRILL" x="14" y="69.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11" y="69.9" size="0.8128" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="18.3" y="66.6" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="X5" library="thermo" package="2.5MM-AUDIO-JACK-MONO" value="2.5MM-AUDIO-JACK-MONODRILL" x="27" y="69.9" smashed="yes" rot="MR270">
+<element name="X5" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO" package3d_urn="urn:adsk.eagle:package:1356025/2" value="2.5MM-AUDIO-JACK-MONODRILL" x="27" y="69.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="22.7" y="67.75" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="31.3" y="66.6" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="X6" library="thermo" package="2.5MM-AUDIO-JACK-MONO" value="2.5MM-AUDIO-JACK-MONODRILL" x="40" y="69.9" smashed="yes" rot="MR270">
+<element name="X6" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO" package3d_urn="urn:adsk.eagle:package:1356025/2" value="2.5MM-AUDIO-JACK-MONODRILL" x="40" y="69.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.85" y="67.65" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="44.3" y="66.6" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="X7" library="thermo" package="2.5MM-AUDIO-JACK-MONO" value="2.5MM-AUDIO-JACK-MONODRILL" x="53" y="69.9" smashed="yes" rot="MR270">
+<element name="X7" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO" package3d_urn="urn:adsk.eagle:package:1356025/2" value="2.5MM-AUDIO-JACK-MONODRILL" x="53" y="69.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.9" y="67.65" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="57.3" y="66.6" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="X8" library="thermo" package="2.5MM-AUDIO-JACK-MONO" value="2.5MM-AUDIO-JACK-MONODRILL" x="66" y="69.9" smashed="yes" rot="MR270">
+<element name="X8" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="2.5MM-AUDIO-JACK-MONO" package3d_urn="urn:adsk.eagle:package:1356025/2" value="2.5MM-AUDIO-JACK-MONODRILL" x="66" y="69.9" smashed="yes" rot="MR270">
 <attribute name="NAME" x="61.85" y="67.7" size="0.8128" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="70.3" y="66.6" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="JP3" library="thermo" package="JP2" value="" x="56.45" y="23.3" smashed="yes" rot="MR90"/>
-<element name="JP4" library="thermo" package="JP2" value="" x="53.6" y="42.9" smashed="yes" rot="MR90"/>
-<element name="JP6" library="thermo" package="JP4" value="" x="63.15" y="35.1" smashed="yes" rot="MR180"/>
-<element name="JP7" library="thermo" package="JP4" value="" x="76.25" y="47.15" smashed="yes" rot="MR270"/>
-<element name="JP1" library="thermo" package="JP4" value="" x="56.15" y="47.7" smashed="yes" rot="MR180"/>
-<element name="X3" library="thermo" package="DEBUG-CON" value="JTAG-EDGE-CON" x="80.05" y="34.6" smashed="yes" rot="R270">
+<element name="JP3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP2" package3d_urn="urn:adsk.eagle:package:1356073/2" value="" x="56.45" y="23.3" smashed="yes" rot="MR90"/>
+<element name="JP4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP2" package3d_urn="urn:adsk.eagle:package:1356073/2" value="" x="53.6" y="42.9" smashed="yes" rot="MR90"/>
+<element name="JP6" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP4" package3d_urn="urn:adsk.eagle:package:1356077/2" value="" x="63.15" y="35.1" smashed="yes" rot="MR180"/>
+<element name="JP7" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP4" package3d_urn="urn:adsk.eagle:package:1356077/2" value="" x="76.25" y="47.15" smashed="yes" rot="MR270"/>
+<element name="JP1" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP4" package3d_urn="urn:adsk.eagle:package:1356077/2" value="" x="56.15" y="47.7" smashed="yes" rot="MR180"/>
+<element name="X3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="DEBUG-CON" package3d_urn="urn:adsk.eagle:package:1356090/2" value="JTAG-EDGE-CON" x="80.05" y="34.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.668" y="40.307" size="0.8128" layer="21"/>
 </element>
-<element name="JP2" library="thermo" package="JP3" value="" x="8.6" y="8.4" smashed="yes" rot="MR90">
+<element name="JP2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP3" package3d_urn="urn:adsk.eagle:package:1356075/2" value="" x="8.6" y="8.4" smashed="yes" rot="MR90">
 <attribute name="NAME" x="8.251" y="2.844" size="0.8128" layer="26" ratio="10" rot="MR90"/>
 </element>
-<element name="T12" library="thermo" package="SOT-323" value="NMOSSOT323" x="14.55" y="13.7" smashed="yes" rot="R180">
+<element name="T12" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="14.55" y="13.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.75" y="11.55" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="T11" library="thermo" package="SOT-323" value="NMOSSOT323" x="66" y="55.5" smashed="yes">
+<element name="T11" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="66" y="55.5" smashed="yes">
 <attribute name="NAME" x="62.85" y="55" size="0.8128" layer="25"/>
 </element>
-<element name="T10" library="thermo" package="SOT-323" value="NMOSSOT323" x="53" y="55.5" smashed="yes">
+<element name="T10" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="53" y="55.5" smashed="yes">
 <attribute name="NAME" x="49.75" y="55" size="0.8128" layer="25"/>
 </element>
-<element name="T9" library="thermo" package="SOT-323" value="NMOSSOT323" x="40" y="55.5" smashed="yes">
+<element name="T9" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="40" y="55.5" smashed="yes">
 <attribute name="NAME" x="37.3" y="55" size="0.8128" layer="25"/>
 </element>
-<element name="T8" library="thermo" package="SOT-323" value="NMOSSOT323" x="27" y="55.5" smashed="yes">
+<element name="T8" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="27" y="55.5" smashed="yes">
 <attribute name="NAME" x="24.4" y="55" size="0.8128" layer="25"/>
 </element>
-<element name="T7" library="thermo" package="SOT-323" value="NMOSSOT323" x="14" y="55.5" smashed="yes">
+<element name="T7" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="14" y="55.5" smashed="yes">
 <attribute name="NAME" x="11.3" y="55" size="0.8128" layer="25"/>
 </element>
-<element name="T6" library="thermo" package="SOT-323" value="NMOSSOT323" x="66" y="55.5" smashed="yes" rot="MR0">
+<element name="T6" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="66" y="55.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.55" y="54.05" size="0.8128" layer="26" rot="MR0"/>
 </element>
-<element name="T5" library="thermo" package="SOT-323" value="NMOSSOT323" x="53" y="55.5" smashed="yes" rot="MR0">
+<element name="T5" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="53" y="55.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="55.6" y="54" size="0.8128" layer="26" rot="MR0"/>
 </element>
-<element name="T4" library="thermo" package="SOT-323" value="NMOSSOT323" x="40" y="55.5" smashed="yes" rot="MR0">
+<element name="T4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="40" y="55.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="42.45" y="54.2" size="0.8128" layer="26" rot="MR0"/>
 </element>
-<element name="T3" library="thermo" package="SOT-323" value="NMOSSOT323" x="27" y="55.5" smashed="yes" rot="MR0">
+<element name="T3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="27" y="55.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.1" y="54.2" size="0.8128" layer="26" rot="MR0"/>
 </element>
-<element name="T2" library="thermo" package="SOT-323" value="NMOSSOT323" x="14" y="55.5" smashed="yes" rot="MR0">
+<element name="T2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="14" y="55.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.7" y="54.1" size="0.8128" layer="26" rot="MR0"/>
 </element>
-<element name="JP8" library="thermo" package="JP2" value="" x="8.15" y="30.05" smashed="yes" rot="MR270"/>
+<element name="JP8" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP2" package3d_urn="urn:adsk.eagle:package:1356073/2" value="" x="8.15" y="30.05" smashed="yes" rot="MR270"/>
 <element name="J3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="7395-04" value="22-05-7048-04" x="66.35" y="16.85" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="66.35" y="16.85" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="66.35" y="16.85" size="0.8128" layer="27" rot="R90" display="off"/>
@@ -3311,7 +3392,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="66.35" y="16.85" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="68.7899" y="22.7921" size="0.8128" layer="27" ratio="10"/>
 </element>
-<element name="T13" library="thermo" package="SOT23" value="PMOS" x="67" y="7" smashed="yes" rot="R270">
+<element name="T13" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT23" package3d_urn="urn:adsk.eagle:package:1356023/3" value="PMOS" x="67" y="7" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.095" y="4.855" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="63.825" y="8.905" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -3321,7 +3402,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="66.75" y="10.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.385" y="12.105" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R59" library="thermo" package="R0603" value="10k B=3380" x="39.1" y="47.25" smashed="yes" rot="R180">
+<element name="R59" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="R0603" package3d_urn="urn:adsk.eagle:package:1356063/2" value="10k B=3380" x="39.1" y="47.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.435" y="47.515" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="39.735" y="49.155" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -3331,7 +3412,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="45.25" y="50.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="45.885" y="52.355" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="T14" library="thermo" package="SOT-323" value="NMOSSOT323" x="45.25" y="48.85" smashed="yes" rot="R180">
+<element name="T14" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="SOT-323" package3d_urn="urn:adsk.eagle:package:1356033/2" value="NMOSSOT323" x="45.25" y="48.85" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.15" y="46.55" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="4.7k 0.1%" x="42.15" y="47.25" smashed="yes" rot="R180">
@@ -3650,11 +3731,11 @@ design rules under a new name.</description>
 <wire x1="8.95" y1="27.55" x2="10.75" y2="27.55" width="0.2" layer="16"/>
 <wire x1="51" y1="20.6" x2="51.45" y2="21.05" width="0.2" layer="1"/>
 <wire x1="51.45" y1="21.05" x2="51.45" y2="22.6" width="0.2" layer="1"/>
-<via x="49.8" y="17.55" extent="1-16" drill="0.3048"/>
-<wire x1="49.8" y1="17.55" x2="49.8" y2="18" width="0.2" layer="16"/>
+<via x="49.8" y="17.5" extent="1-16" drill="0.3048"/>
+<wire x1="49.8" y1="17.5" x2="49.8" y2="18" width="0.2" layer="16"/>
 <via x="49.8" y="20.6" extent="1-16" drill="0.3048"/>
 <wire x1="49.8" y1="18" x2="49.8" y2="20.6" width="0.2" layer="16"/>
-<wire x1="49.8" y1="17.55" x2="49.8" y2="13.85" width="0.2" layer="1"/>
+<wire x1="49.8" y1="17.5" x2="49.8" y2="13.85" width="0.2" layer="1"/>
 <wire x1="48" y1="31" x2="46.7" y2="31" width="0.2" layer="1"/>
 <wire x1="46.7" y1="31" x2="46.0524" y2="31.6476" width="0.2" layer="1"/>
 <wire x1="46.0524" y1="31.6476" x2="43.5" y2="31.6476" width="0.2" layer="1"/>
@@ -4359,8 +4440,8 @@ design rules under a new name.</description>
 <wire x1="48" y1="32" x2="35" y2="32" width="0.2" layer="1"/>
 <wire x1="24.25" y1="47.9" x2="24.25" y2="49.45" width="0.2" layer="16"/>
 <wire x1="24.25" y1="49.45" x2="25" y2="50.2" width="0.2" layer="16"/>
-<wire x1="25" y1="50.2" x2="38.85" y2="50.2" width="0.2" layer="16"/>
-<via x="38.85" y="50.2" extent="1-16" drill="0.3048"/>
+<wire x1="25" y1="50.2" x2="40.85" y2="50.2" width="0.2" layer="16"/>
+<via x="40.85" y="50.2" extent="1-16" drill="0.3048"/>
 <wire x1="38.3" y1="16.3" x2="38.3" y2="17.15" width="0.4" layer="16"/>
 <wire x1="37.25" y1="14.15" x2="37.25" y2="15.25" width="0.4" layer="16"/>
 <wire x1="37.25" y1="15.25" x2="38.3" y2="16.3" width="0.4" layer="16"/>
@@ -4374,7 +4455,7 @@ design rules under a new name.</description>
 <wire x1="37.6406625" y1="47.25" x2="37.4406625" y2="47.45" width="0.2" layer="1"/>
 <wire x1="37.4406625" y1="47.45" x2="37.4406625" y2="49.8" width="0.2" layer="1"/>
 <wire x1="37.4406625" y1="49.8" x2="37.8406625" y2="50.2" width="0.2" layer="1"/>
-<wire x1="37.8406625" y1="50.2" x2="38.85" y2="50.2" width="0.2" layer="1"/>
+<wire x1="37.8406625" y1="50.2" x2="40.85" y2="50.2" width="0.2" layer="1"/>
 <contactref element="JP7" pad="2"/>
 <wire x1="19.35" y1="15.8" x2="19.35" y2="18.7" width="0.2" layer="16"/>
 <wire x1="18.45" y1="19.6" x2="13.75" y2="19.6" width="0.2" layer="16"/>
@@ -5496,10 +5577,6 @@ design rules under a new name.</description>
 <wire x1="58.9" y1="16.775" x2="58.9" y2="17.75" width="0.2" layer="1"/>
 <wire x1="58.9" y1="17.75" x2="56.8904" y2="19.7596" width="0.2" layer="1"/>
 <wire x1="56.8904" y1="19.7596" x2="48.1904" y2="19.7596" width="0.2" layer="1"/>
-<wire x1="48.1904" y1="19.7596" x2="47.7356" y2="20.2144" width="0.2" layer="1"/>
-<wire x1="47.7356" y1="20.2144" x2="47.35" y2="20.2144" width="0.2" layer="1"/>
-<wire x1="47.35" y1="20.2144" x2="46.7" y2="20.8644" width="0.2" layer="1"/>
-<wire x1="46.7" y1="20.8644" x2="46.7" y2="22.65" width="0.2" layer="1"/>
 <via x="34.5" y="28.5572" extent="1-16" drill="0.3048"/>
 <wire x1="37.7952" y1="28.0524" x2="38" y2="28.2572" width="0.2" layer="16"/>
 <via x="38" y="28.2572" extent="1-16" drill="0.3048"/>
@@ -5513,6 +5590,8 @@ design rules under a new name.</description>
 <wire x1="32" y1="28" x2="34" y2="28" width="0.2" layer="1"/>
 <wire x1="34" y1="28" x2="34.5" y2="28.5" width="0.2" layer="1"/>
 <wire x1="34.5" y1="28.5" x2="34.5" y2="28.5572" width="0.2" layer="1"/>
+<wire x1="46.7" y1="21.25" x2="46.7" y2="22.65" width="0.2" layer="1"/>
+<wire x1="48.1904" y1="19.7596" x2="46.7" y2="21.25" width="0.2" layer="1"/>
 </signal>
 <signal name="UI_BUTTON_INT_0">
 <contactref element="X14" pad="2" route="any" routetag="G$1.2"/>
@@ -6508,11 +6587,8 @@ design rules under a new name.</description>
 <wire x1="27.3" y1="41.088" x2="27.4428" y2="41.2308" width="0.2" layer="16"/>
 <wire x1="27.4428" y1="41.2308" x2="27.4428" y2="41.23305" width="0.2" layer="16"/>
 <wire x1="27.3" y1="40.05" x2="27.3" y2="41.088" width="0.2" layer="16"/>
-<wire x1="27.4428" y1="41.23305" x2="29.2016625" y2="42.9919125" width="0.2" layer="16"/>
-<wire x1="32.75" y1="49.05" x2="38.3" y2="49.05" width="0.2" layer="16"/>
-<via x="38.3" y="49.05" extent="1-16" drill="0.3048"/>
-<wire x1="29.2016625" y1="42.9919125" x2="29.2016625" y2="45.5016625" width="0.2" layer="16"/>
-<wire x1="29.2016625" y1="45.5016625" x2="32.75" y2="49.05" width="0.2" layer="16"/>
+<wire x1="29.2016625" y1="42.9919125" x2="27.4428" y2="41.23305" width="0.2" layer="16"/>
+<via x="39.3" y="49.05" extent="1-16" drill="0.3048"/>
 <wire x1="9.42" y1="28.38" x2="9.42" y2="30.05" width="0.2" layer="1"/>
 <wire x1="29.761225" y1="27.9096" x2="26.9" y2="27.9096" width="0.2" layer="1"/>
 <wire x1="26.9" y1="27.9096" x2="9.8904" y2="27.9096" width="0.2" layer="1"/>
@@ -6521,7 +6597,7 @@ design rules under a new name.</description>
 <wire x1="26.8976" y1="32.795975" x2="26.8976" y2="27.912" width="0.2" layer="1"/>
 <wire x1="32" y1="29" x2="30.851625" y2="29" width="0.2" layer="1"/>
 <wire x1="30.851625" y1="29" x2="29.761225" y2="27.9096" width="0.2" layer="1"/>
-<wire x1="38.3" y1="49.05" x2="42.2" y2="49.05" width="0.2" layer="1"/>
+<wire x1="39.3" y1="49.05" x2="42.2" y2="49.05" width="0.2" layer="1"/>
 <wire x1="42.2" y1="49.05" x2="43.15" y2="48.1" width="0.2" layer="1"/>
 <wire x1="45.9" y1="48.85" x2="45.9" y2="49.45" width="0.2" layer="1"/>
 <wire x1="45.9" y1="49.45" x2="46.1" y2="49.65" width="0.2" layer="1"/>
@@ -6529,6 +6605,9 @@ design rules under a new name.</description>
 <wire x1="43.15" y1="48.1" x2="45.7" y2="48.1" width="0.2" layer="1"/>
 <wire x1="45.7" y1="48.1" x2="45.9" y2="48.3" width="0.2" layer="1"/>
 <wire x1="45.9" y1="48.3" x2="45.9" y2="48.85" width="0.2" layer="1"/>
+<wire x1="39.3" y1="49.05" x2="30.05" y2="49.05" width="0.2" layer="16"/>
+<wire x1="30.05" y1="49.05" x2="29.2016625" y2="48.2016625" width="0.2" layer="16"/>
+<wire x1="29.2016625" y1="48.2016625" x2="29.2016625" y2="42.9919125" width="0.2" layer="16"/>
 </signal>
 <signal name="SENSOR_IN_0_DRAIN">
 <contactref element="R38" pad="2"/>
