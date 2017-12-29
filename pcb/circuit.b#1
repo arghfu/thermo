@@ -3751,7 +3751,7 @@ design rules under a new name.</description>
 <wire x1="11.068" y1="49.17" x2="11.068" y2="50.982" width="0.2" layer="16"/>
 <wire x1="11.068" y1="50.982" x2="8" y2="54.05" width="0.2" layer="16"/>
 <wire x1="8" y1="54.05" x2="8" y2="63.85" width="0.2" layer="16"/>
-<polygon width="0.2" layer="16" isolate="0.254" rank="2">
+<polygon width="0.2" layer="16" pour="cutout" isolate="0.254" rank="2">
 <vertex x="0" y="0"/>
 <vertex x="80" y="0"/>
 <vertex x="80" y="70"/>
@@ -3795,11 +3795,6 @@ design rules under a new name.</description>
 <wire x1="46.3" y1="4.3" x2="46.3" y2="5.75" width="0.2" layer="16"/>
 <via x="54.7" y="10.8" extent="1-16" drill="0.3048"/>
 <wire x1="54.7" y1="10.8" x2="54.7" y2="9.25" width="0.2" layer="1"/>
-<wire x1="55.65" y1="16.775" x2="55.65" y2="17.85" width="0.2" layer="1"/>
-<wire x1="55.65" y1="17.85" x2="55.4" y2="18.1" width="0.2" layer="1"/>
-<via x="55.4" y="18.1" extent="1-16" drill="0.3048"/>
-<wire x1="13.7" y1="15.2" x2="13.7" y2="21.5" width="0.2" layer="1"/>
-<via x="13.7" y="21.5" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="CHARGER_PROG">
 <contactref element="R7" pad="2"/>
@@ -4277,6 +4272,11 @@ design rules under a new name.</description>
 <wire x1="22.4" y1="15" x2="22.15" y2="15.25" width="0.2" layer="16"/>
 <wire x1="22.15" y1="15.25" x2="19.9" y2="15.25" width="0.2" layer="16"/>
 <wire x1="19.9" y1="15.25" x2="19.35" y2="15.8" width="0.2" layer="16"/>
+<wire x1="19.35" y1="15.8" x2="19.35" y2="22.1" width="0.2" layer="16"/>
+<wire x1="19.35" y1="22.1" x2="18.7" y2="22.75" width="0.2" layer="16"/>
+<wire x1="12.59" y1="23.36" x2="12.59" y2="25.05" width="0.2" layer="16"/>
+<wire x1="18.7" y1="22.75" x2="13.2" y2="22.75" width="0.2" layer="16"/>
+<wire x1="13.2" y1="22.75" x2="12.59" y2="23.36" width="0.2" layer="16"/>
 <wire x1="30.4" y1="12.6" x2="30.4" y2="14.125" width="0.2" layer="16"/>
 <wire x1="30.4" y1="14.125" x2="30.375" y2="14.15" width="0.2" layer="16"/>
 <wire x1="25.3" y1="12.9" x2="25.6" y2="12.6" width="0.2" layer="1"/>
@@ -4376,11 +4376,6 @@ design rules under a new name.</description>
 <wire x1="37.4406625" y1="49.8" x2="37.8406625" y2="50.2" width="0.2" layer="1"/>
 <wire x1="37.8406625" y1="50.2" x2="38.85" y2="50.2" width="0.2" layer="1"/>
 <contactref element="JP7" pad="2"/>
-<wire x1="19.35" y1="15.8" x2="19.35" y2="18.7" width="0.2" layer="16"/>
-<wire x1="18.45" y1="19.6" x2="13.75" y2="19.6" width="0.2" layer="16"/>
-<wire x1="13.75" y1="19.6" x2="12.59" y2="20.76" width="0.2" layer="16"/>
-<wire x1="19.35" y1="18.7" x2="18.45" y2="19.6" width="0.2" layer="16"/>
-<wire x1="12.59" y1="20.76" x2="12.59" y2="25.05" width="0.2" layer="16"/>
 </signal>
 <signal name="CHARGER_STAT1_LED">
 <contactref element="D1" pad="1"/>
