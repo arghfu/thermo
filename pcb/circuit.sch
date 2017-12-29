@@ -14806,6 +14806,20 @@ BUTTON_[0..3] = EXINT[10..13]</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,205.74,83.82,V+,BUCK_V+,,,,"/>
+<approved hash="102,1,20.32,96.52,V+,BUCK_V+,,,,"/>
+<approved hash="104,3,55.88,109.22,IC8,GND,AGND,,,"/>
+<approved hash="104,3,55.88,76.2,IC8,GND,AGND,,,"/>
+<approved hash="106,3,127,60.96,MISO_NC,,,,,"/>
+<approved hash="113,4,26.7409,27.6454,JP3,,,,,"/>
+<approved hash="113,4,26.7409,20.0254,JP4,,,,,"/>
+<approved hash="113,4,62.3009,30.1854,JP6,,,,,"/>
+<approved hash="113,4,62.3009,14.9454,JP7,,,,,"/>
+<approved hash="113,4,26.7409,53.0454,JP1,,,,,"/>
+<approved hash="113,4,26.7409,41.6154,JP2,,,,,"/>
+<approved hash="113,4,62.3009,42.8854,JP8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

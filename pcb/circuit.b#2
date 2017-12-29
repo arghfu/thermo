@@ -2249,7 +2249,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <circle x="0" y="0" radius="1.7" width="0.127" layer="21"/>
 <text x="-3.81" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="7395-04" library_version="4" library_locally_modified="yes">
+<package name="7395-04" urn="urn:adsk.eagle:footprint:1365763/1" library_version="5">
 <description>&lt;b&gt;KK® 254 Wire-to-Board Header, Right Angle, with Friction Lock, 4 Circuits&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022057048_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-1.905" width="0.254" layer="21"/>
 <wire x1="5.08" y1="-1.905" x2="4.445" y2="-1.905" width="0.254" layer="21"/>
@@ -2301,7 +2301,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <rectangle x1="-1.524" y1="-2.5146" x2="-1.016" y2="-0.2794" layer="51"/>
 <rectangle x1="-4.064" y1="-2.5146" x2="-3.556" y2="-0.2794" layer="51"/>
 </package>
-<package name="7395-03" library_version="4" library_locally_modified="yes">
+<package name="7395-03" urn="urn:adsk.eagle:footprint:1365764/1" library_version="5">
 <description>&lt;b&gt;KK® 254 Wire-to-Board Header, Right Angle, with Friction Lock, 3 Circuits&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022057038_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="3.81" y1="-5.08" x2="3.81" y2="-1.905" width="0.254" layer="21"/>
 <wire x1="3.81" y1="-1.905" x2="3.175" y2="-1.905" width="0.254" layer="21"/>
@@ -2419,6 +2419,12 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <package3d name="L-1210" urn="urn:adsk.eagle:package:1356046/3" type="model" library_version="4">
 </package3d>
 <package3d name="B3S" urn="urn:adsk.eagle:package:1356048/1" type="box" library_version="4">
+</package3d>
+<package3d name="7395-03" urn="urn:adsk.eagle:package:1365767/1" type="box" library_version="5">
+<description>KK® 254 Wire-to-Board Header, Right Angle, with Friction Lock, 3 CircuitsDatasheet </description>
+</package3d>
+<package3d name="7395-04" urn="urn:adsk.eagle:package:1365765/1" type="box" library_version="5">
+<description>KK® 254 Wire-to-Board Header, Right Angle, with Friction Lock, 4 CircuitsDatasheet </description>
 </package3d>
 </packages3d>
 </library>
@@ -2864,7 +2870,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.95" y="18.25" size="0.8128" layer="26" rot="MR0"/>
 <attribute name="OC_MOUSER" value="710-74437321033" x="40.65" y="15.3" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="L2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="L0603" package3d_urn="urn:adsk.eagle:package:1356055/2" value="" x="37.65" y="5.7" smashed="yes">
+<element name="L2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="L0603" package3d_urn="urn:adsk.eagle:package:1356055/2" value="L-0603" x="37.65" y="5.7" smashed="yes">
 <attribute name="NAME" x="36.315" y="6.485" size="0.8128" layer="25" ratio="12"/>
 <attribute name="OC_MOUSER" value="710-742792641" x="37.65" y="5.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.015" y="3.795" size="1.27" layer="27"/>
@@ -2877,7 +2883,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.41" y="34.081" size="0.8128" layer="25"/>
 <attribute name="OC_MOUSER" value="871-B82422H1103K" x="53.9" y="32.38" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="L0603" package3d_urn="urn:adsk.eagle:package:1356055/2" value="" x="38.3" y="14.95" smashed="yes" rot="R90">
+<element name="L4" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="L0603" package3d_urn="urn:adsk.eagle:package:1356055/2" value="L-0603" x="38.3" y="14.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.3" y="13.6" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_MOUSER" value="81-BLM18EG221SN1D" x="38.3" y="14.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.205" y="14.315" size="1.27" layer="27" rot="R90"/>
@@ -3290,7 +3296,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="19.45" y="37.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="21.355" y="36.915" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="7395-03" value="22-05-7038-03" x="66.35" y="26.8" smashed="yes" rot="R90">
+<element name="J2" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="7395-03" package3d_urn="urn:adsk.eagle:package:1365767/1" value="22-05-7038-03" x="66.35" y="26.8" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="66.35" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="66.35" y="26.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="66.3399" y="31.1021" size="0.8128" layer="25" ratio="10"/>
@@ -3366,7 +3372,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.7" y="54.1" size="0.8128" layer="26" rot="MR0"/>
 </element>
 <element name="JP8" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="JP2" package3d_urn="urn:adsk.eagle:package:1356073/2" value="" x="8.15" y="30.05" smashed="yes" rot="MR270"/>
-<element name="J3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="7395-04" value="22-05-7048-04" x="66.35" y="16.85" smashed="yes" rot="R90">
+<element name="J3" library="thermo" library_urn="urn:adsk.eagle:library:1355801" package="7395-04" package3d_urn="urn:adsk.eagle:package:1365765/1" value="22-05-7048-04" x="66.35" y="16.85" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="66.35" y="16.85" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="66.35" y="16.85" size="0.8128" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="65.7199" y="21.9521" size="0.8128" layer="25" ratio="10"/>
@@ -6893,14 +6899,6 @@ design rules under a new name.</description>
 <wire x1="45.25" y1="47.25" x2="43" y2="47.25" width="0.2" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="6,16,011e825e3fa239e7"/>
-<approved hash="6,16,9881f54cb2762360"/>
-<approved hash="6,16,afb6d34ad00dacf1"/>
-<approved hash="6,16,e22a37ecf004d988"/>
-<approved hash="6,16,af96d36ad02dacd1"/>
-<approved hash="6,16,d94734caf072e1a1"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
